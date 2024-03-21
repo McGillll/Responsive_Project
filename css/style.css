@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter" ;
+}
 
 #header{
     width: 100%;
+    height: 80px;
+}
+
+#content{
+    width: min-content;
+    height: min-content;
+    gap: 40px;
 }
 
 #header-container{
-    width: 100%;
+    width: 1280px;
+    height: min-content;
+    padding: 0px 32px;
 }
 
 #logo-holder{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    height: 32px;
+    width: 142px;
 }
 
 #logo{
@@ -19,19 +34,76 @@
 }
 
 #logo-text{
-    font-family: "Inter" ;
-    font-size: 24px;
-    
+    font-size: 24px; 
+}
+
+#nav-holder{
+    font-size: 16px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+#products, #resources, #home, #pricing{
+    margin: 4px 0px;
 
 }
+
+#img-holder{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+}
+
+#section{
+
+}
+
+#section-container{
+
+}
+
+#section-content{
+
+}
+
+#heading-supportingContent{
+
+}
+
+#heading-badge{
+
+}
+
+#badge-group{}
+#badge{}
+#badge-base{}
+#text-badge{}
+#heading{}
+#text-header{}
+#supporting-text{}
+
+#action{}
+#demo{}
+#demo-base{}
+#demo-img{}
+#text-demo{}
+#sign-up{}
+#sign-up-base{}
+#text-signup{}
+
 
 .flex, .flex-center{
     display: flex;
 }
 
-.flex-center{
+.flex-v-center{
+    align-items: center;
+}
+
+.flex-h-center{
     justify-content: center;
-    align-content: center;
 }
 
 .flex-left{

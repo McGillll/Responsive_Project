@@ -7,12 +7,72 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="header" style="background: aqua;">
-        <div id="header-container" style="background: antiquewhite;">
-            <div id="content" class="flex flex-left">
-                <div id="logo-holder" class="flex flex-center">
+    <div id="header" class="flex flex-h-center flex-v-center" style="background: aqua;">
+        <div id="header-container" class="flex flex-v-center" style="background: antiquewhite;">
+            <div id="content" class="flex flex-left" style="background-color: aquamarine;">
+                <div id="logo-holder" class="flex flex-center" style="background-color: azure;">
                     <img id="logo" src="img/Logomark.png" alt="Logomark">
                     <h1 id="logo-text">HRMS</h1>
+                </div>
+                <div id="nav-holder" class="flex flex-v-center" style="background-color: bisque;">
+                    <a href="index.html" id="home">Home</a>
+                    <div class="flex flex-v-center">
+                        <label for="products">Products</label>
+                        <select name="products" id="products">Products</select>
+                    </div>
+                    <div class="flex flex-v-center">
+                        <label for="resources">Resources</label>
+                        <select name="resources" id="resources">Resources</select>
+                    </div>
+                    <a href="" id="pricing">Pricing</a>
+                </div>
+            </div>
+            <div id="img-holder">
+                <img src="img/Avatar.svg" alt="Avatar">
+            </div>
+        </div>
+    </div>
+
+    <div id="section">
+        <div id="section-container">
+            <div id="section-content">
+                <div id="heading-supportingContent">
+                    <div id="heading-badge">
+                        <div id="badge-group" class="flex">
+                            <div id="badge">
+                                <div id="badge-base">
+                                    <p id="text-badge">New feature</p>
+                                </div>
+                            </div>
+                            <div id="badge-content" class="flex">
+                                <p>Check out the team dashboard</p>
+                                <img src="img/Icon.svg" alt="arrow-icon">
+                            </div>
+                        </div>
+                        <div id="heading">
+                            <h1 id="text-header">Beautiful analytics to grow smarter</h1>
+                        </div>
+                    </div>
+                    <div id="supporting-text">
+                        <p>
+                            Powerful, self-serve product and growth analytics 
+                            to help you convert, engage,<br> and retain more users. 
+                            Trusted by over 4,000 startups.
+                        </p>
+                    </div>
+                </div>
+                <div id="action">
+                    <button id="demo">
+                        <div id="demo-base">
+                            <img src="img/play-circle.svg" id="demo-img" alt="">
+                            <p id="text-demo">Demo</p>
+                        </div>
+                    </button>
+                    <button id="sign-up">
+                        <div id="sign-up-base">
+                            <p id="text-signup">Sign up</p>
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>
