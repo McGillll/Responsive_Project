@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body{
     font-family: "Inter" ;
+}
+p, h1, button{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #667085;
+}
+select{
+    border: none;
+    outline: none;
+    color: #667085;
 }
 
 #header{
@@ -42,13 +56,14 @@ body{
     display: flex;
     gap: 32px;
     align-items: center;
+    color: #667085;
 }
-
+        
 #products, #resources, #home, #pricing{
     margin: 4px 0px;
-
+    
 }
-
+        
 #img-holder{
     border-radius: 50%;
     height: 40px;
@@ -57,41 +72,334 @@ body{
 }
 
 #section{
-
+    gap: 64px;
+    padding-top: 96px;
+    width: 100%;
+    height: fit-content;
 }
 
 #section-container{
-
+    gap: 32px;
+    padding:0px 32px;
+    width: 1280px;
+    height: max-content;
 }
 
 #section-content{
-
+    width: 100%;
+    gap: 48px;
+    height: max-content;
 }
 
 #heading-supportingContent{
-
+    gap: 24px;
+    width: 1204px;
+    height: max-content;
 }
 
 #heading-badge{
-
+    gap: 16px;
+    width: 100%;
+    height: max-content;
 }
 
-#badge-group{}
-#badge{}
-#badge-base{}
-#text-badge{}
-#heading{}
-#text-header{}
-#supporting-text{}
+#badge-group{
+    border-radius: 16px;
+    width: min-content;
+    height: min-content;
+    padding: 4px 10px 4px 4px;
+    background-color: #EDFCF2;
+    gap: 12px;
+}
 
-#action{}
-#demo{}
-#demo-base{}
-#demo-img{}
-#text-demo{}
-#sign-up{}
-#sign-up-base{}
-#text-signup{}
+#badge{
+    width: min-content;
+    height: min-content;
+    
+}
+#badge-base{
+    border-radius: 16px;
+    width: max-content;
+    height: max-content;   
+    padding: 2px 10px;
+    background-color: #FFFFFF;
+}
+#text-badge{
+    font-weight:500;
+    font-size: 14px;
+    color: #087443;
+}
+#badge-content{
+    gap: 4px;
+    width: max-content;
+    height: max-content;
+    color: #087443;
+    font-weight: 500;
+}
+
+#heading{
+    width:100%;
+    height: max-content;
+    margin-bottom: 24px;
+}
+#text-header{
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: -2px;
+}
+#supporting-text{
+    font-size: 20px;
+    color: #667085;
+}
+
+#action{
+    display:flex;
+    width: max-content;
+    height: max-content;
+    gap: 12px;
+}
+#demo, #sign-up{
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    border: none;
+}
+#demo-base{
+    gap: 12px;
+    border: solid 1px #D0D5DD;
+}
+
+#demo-base, #sign-up-base{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    border-radius: 8px;
+    padding: 16px 28px;
+}
+#demo-img{
+    width: 24px;
+    height: 24px;
+    color: #344054;
+}
+#text-demo{
+    color: #344054;
+}
+#sign-up-base{
+    background-color: #099250;
+    border: 1px solid #099250;
+}
+#text-signup, #text-demo{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#text-signup{
+    color: #FFFFFF;
+}
+
+#selection-img-container{
+    padding: 0px 32px;
+    
+}
+#selection-img-content{
+    width: 100%;
+    height: 480px;
+    
+}
+
+.Social-proof-section {
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 96px 0px;
+    background-color: #fff;
+}
+
+#sps-container {
+    width: 1280px;
+    height: max-content;
+    gap: 32px;
+    padding: 0 32px;
+}
+
+#sps-text {
+    height: 24px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #667085;
+}
+
+#logo-container {
+    height: 48px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+#features-section {
+    height: 836px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 64px;
+    padding: 96px 0;
+    background-color: #fff;
+}
+
+#fs-content {
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+    padding: 0;
+    height: 160px;
+}
+
+#Heading-and-subheading {
+    height: 80px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 12px;
+    padding: 0;
+    flex-grow: 0;
+}
+
+#Subheading {
+    height: 24px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #087443;
+}
+
+#fs-heading {
+    height: 44px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: -0.72px;
+    text-align: center;
+    color: #101828;
+}
+
+#fs-supporting-text {
+    height: 60px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #667085;
+}
+
+#fs-container {
+    width: 1280px;
+    height: 420px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 64px;
+    padding: 0 32px;
+}
+
+.feature-content {
+    height: 178px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+}
+
+.feature-text {
+    height: 178px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.ft-text {
+    height: 30px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #101828;
+}
+
+.ft-supporting-text {
+    height: 72px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #667085;
+}
 
 
 .flex, .flex-center{
@@ -112,4 +420,19 @@ body{
 
 .flex-right{
     justify-content: flex-end;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.Divider {
+    height: 1px;
+    align-self: stretch;
+    flex-grow: 0;
+    background-color: #eaecf0;
 }

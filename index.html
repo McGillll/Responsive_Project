@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="header" class="flex flex-h-center flex-v-center" style="background: aqua;">
-        <div id="header-container" class="flex flex-v-center" style="background: antiquewhite;">
-            <div id="content" class="flex flex-left" style="background-color: aquamarine;">
-                <div id="logo-holder" class="flex flex-center" style="background-color: azure;">
+    <div id="header" class="flex flex-h-center flex-v-center">
+        <div id="header-container" class="flex flex-v-center">
+            <div id="content" class="flex flex-left">
+                <div id="logo-holder" class="flex flex-center" >
                     <img id="logo" src="img/Logomark.png" alt="Logomark">
                     <h1 id="logo-text">HRMS</h1>
                 </div>
-                <div id="nav-holder" class="flex flex-v-center" style="background-color: bisque;">
+                <div id="nav-holder" class="flex flex-v-center">
                     <a href="index.html" id="home">Home</a>
                     <div class="flex flex-v-center">
                         <label for="products">Products</label>
@@ -33,14 +33,14 @@
         </div>
     </div>
 
-    <div id="section">
-        <div id="section-container">
-            <div id="section-content">
+    <div id="section" class="flex flex-v-center flex-column">
+        <div id="section-container" class="flex flex-h-center text-center">
+            <div id="section-content" class="flex flex-column flex-v-center">
                 <div id="heading-supportingContent">
-                    <div id="heading-badge">
-                        <div id="badge-group" class="flex">
+                    <div id="heading-badge" class="flex flex-column flex-v-center">
+                        <div id="badge-group" class="flex flex-h-center flex-v-center">
                             <div id="badge">
-                                <div id="badge-base">
+                                <div id="badge-base" >
                                     <p id="text-badge">New feature</p>
                                 </div>
                             </div>
@@ -62,17 +62,125 @@
                     </div>
                 </div>
                 <div id="action">
-                    <button id="demo">
-                        <div id="demo-base">
+                    <button type="button" id="demo">
+                        <div id="demo-base" class="flex">
                             <img src="img/play-circle.svg" id="demo-img" alt="">
                             <p id="text-demo">Demo</p>
                         </div>
                     </button>
-                    <button id="sign-up">
-                        <div id="sign-up-base">
+                    <button type="button" id="sign-up">
+                        <div id="sign-up-base" class="flex">
                             <p id="text-signup">Sign up</p>
                         </div>
                     </button>
+                </div>
+            </div>
+        </div>
+        <div id="selection-img-container" class="flex flex-h-center">
+            <div id="selection-img-content">
+                <img id="selection-img" src="img/Macbook Pro 16 mockup.png" alt="Macbook Pro 16">
+            </div>
+        </div>
+    </div>
+    <div class="Social-proof-section">
+        <div id="sps-container" class="flex flex-column">
+            <p id="sps-text">
+                Join 4,000+ companies already growing
+            </p>
+            <div id="logo-container">
+                <img src="img/layers.png" alt="Layers">
+                <img src="img/sisyphus.png" alt="Sisyphus">
+                <img src="img/circooles.png" alt="Circooles">
+                <img src="img/catalog.png" alt="Catalog">
+                <img src="img/quotient.png" alt="Quotient">
+            </div>
+        </div>
+    </div>
+    <div class="Divider"></div>
+    <div id="features-section">
+        <div id="fs-content">
+            <div id="Heading-and-subheading">
+                <span id="Subheading">
+                    Features
+                </span>
+                <span id="fs-heading">
+                    Analytics that feels like it's from the future
+                </span>
+                <span id="fs-supporting-text">
+                    Powerful, self-serve product and growth analytics to help you convert,
+                    engage,<br>and retain more users. Trusted by over 4,000 startups.
+                </span>
+            </div>
+        </div>
+        <div id="fs-container">
+            <div class="feature-content">
+                <div class="feature-text">
+                    <img src="img/mail.svg" alt="Mail">
+                    <span class="ft-text">
+                        Share team inboxes
+                    </span>
+                    <span class="ft-supporting-text">
+                        Whether you have a team of 2 or 200, our shared<br>
+                        team inboxes keep everyone on the same page<br>
+                        and in the loop.
+                    </span>
+                </div>
+                <div class="feature-text">
+                    <img src="img/lightning.svg" alt="Lightning">
+                    <span class="ft-text">
+                        Deliver instant answers
+                    </span>
+                    <span class="ft-supporting-text">
+                        An all-in-one customer service platform that helps<br>
+                        you balance everything your customers need to be<br>
+                        happy.
+                    </span>
+                </div>
+                <div class="feature-text">
+                    <img src="img/stats.svg" alt="Stats">
+                    <span class="ft-text">
+                        Manage your team with reports
+                    </span>
+                    <span class="ft-supporting-text">
+                        Measure what matters with Untitled's easy-to-use<br>
+                        reports. You can filter, export, and drilldown on the<br>
+                        data in a couple clicks.
+                    </span>
+                </div>
+            </div>
+            <div class="feature-content">
+                <div class="feature-text">
+                    <img src="img/iconsmile.svg" alt="iconsmile">
+                    <span class="ft-text">
+                        Connect with customers
+                    </span>
+                    <span class="ft-supporting-text">
+                        Solve a problem or close a sale in real-time with<br>
+                        chat. If no one is available, customers are <br>
+                        seamlessly routed to email without confusion.
+                    </span>
+                </div>
+                <div class="feature-text">
+                    <img src="img/data.svg" alt="data">
+                    <span class="ft-text">
+                        Connect the tools you already use
+                    </span>
+                    <span class="ft-supporting-text">
+                        Explore 100+ integrations that make your<br>
+                        day-to-day workflow more efficient and familiar.<br>
+                        Plus, our extensive developer tools.
+                    </span>
+                </div>
+                <div class="feature-text">
+                    <img src="img/message.svg" alt="message">
+                    <span class="ft-text">
+                        Our people make the difference
+                    </span>
+                    <span class="ft-supporting-text">
+                        We're an extension of your customer service team,<br>
+                        and all of our resources are free. Chat to our <br>
+                        friendly team 24/7 when you need help.
+                    </span>
                 </div>
             </div>
         </div>
