@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#header{
+    width: 100%;
+}
+
+#header-container{
+    width: 100%;
+}
+
+#logo-holder{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 38.84px;
+    height: 32px;
+}
+
+#logo-text{
+    font-family: "Inter" ;
+    font-size: 24px;
+    
+
+}
+
+.flex, .flex-center{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-left{
+    justify-content: flex-start;
+}
+
+.flex-right{
+    justify-content: flex-end;
+}
