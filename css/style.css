@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
 body{
     font-family: "Inter" ;
 }
@@ -44,14 +45,6 @@ select, button{
     width: 142px;
 }
 
-#logo{
-    width: 38.84px;
-    height: 32px;
-}
-
-#logo-text{
-    font-size: 24px; 
-}
 
 #nav-holder{
     font-size: 16px;
@@ -71,6 +64,10 @@ select, button{
     height: 40px;
     width: 40px;
     margin-left: auto;
+}
+
+#header-img{
+    content: url(/img/Avatar.svg);
 }
 
 #section{
@@ -146,11 +143,12 @@ select, button{
 }
 #text-header{
     font-weight: 580;
-    font-size: 60px ;
+    font-size: 4.5vw;
     letter-spacing: -2px;
 }
+
 #head_supporting-text{
-    font-size: 20px;
+    font-size: 1.35vw;
     color: #667085;
 }
 
@@ -208,8 +206,11 @@ select, button{
 }
 #selection-img-content{
     width: 100%;
-    height: 480px;
-    
+    height: max-content;
+}
+
+#selection-img{
+    width: 82.1vw;
 }
 
 .Social-proof-section {
@@ -249,8 +250,25 @@ select, button{
     height: 48px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    gap: 7.5vw;
+    padding: 0;
+}
+
+#hourglass{
+    display: none;
+}
+
+.Logos {
+    height: 34px;
+    width: 50vw;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 7.5vw;
     padding: 0;
 }
 
@@ -428,8 +446,7 @@ select, button{
     height: 120px;
     align-self: stretch;
     flex-grow: 0;
-    font-family: Inter;
-    font-size: 48px;
+    font-size: 3.3vw;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -1285,7 +1302,7 @@ select, button{
 }
 
 footer {
-    height: 481px;
+    height: max-content;
     align-self: stretch;
     flex-grow: 0;
     display: flex;
@@ -1316,6 +1333,19 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+}
+
+
+.link-content{
+    height: 240px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 32px;
     padding: 0;
